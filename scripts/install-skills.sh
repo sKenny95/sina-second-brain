@@ -20,8 +20,11 @@ count=0
 for skill_dir in "$SKILLS_SRC"/*/; do
   skill_name="$(basename "$skill_dir")"
   dest="$SKILLS_DEST/$skill_name"
+  staging="$dest.installing"
+  rm -rf "$staging"
+  cp -R "$skill_dir" "$staging"
   rm -rf "$dest"
-  cp -R "$skill_dir" "$dest"
+  mv "$staging" "$dest"
   echo "installed: $skill_name -> $dest"
   count=$((count + 1))
 done
