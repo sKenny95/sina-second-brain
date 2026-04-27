@@ -1,0 +1,22 @@
+{
+  "date": "FIXTURE_TODAY",
+  "routings": [
+    {
+      "bullet": "ship the auth feature this week",
+      "destination": "project",
+      "slug": "auth-rewrite",
+      "create_if_missing": true,
+      "title": "Auth rewrite",
+      "section": "Open Loops"
+    },
+    {
+      "bullet": "look into rust",
+      "destination": "someday",
+      "slug": "someday-rust",
+      "create_if_missing": true,
+      "title": "Look into Rust",
+      "section": "Notes"
+    }
+  ],
+  "clear_inbox": true
+}
