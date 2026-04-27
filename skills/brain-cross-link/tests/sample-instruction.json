@@ -1,0 +1,9 @@
+{
+  "links": [
+    {
+      "operational": "projects/auth-rewrite.md",
+      "voicenotes": "wiki/security/auth-thoughts.md",
+      "why": "auth-thoughts grounds the rewrite's design choices"
+    }
+  ]
+}
