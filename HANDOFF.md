@@ -226,3 +226,15 @@ Don't claim success on any of these without verifying — `superpowers:verificat
 ---
 
 *End of handoff. Begin with `superpowers:brainstorming`.*
+
+---
+
+## 12. Build complete — 2026-04-26
+
+All seven `/brain-*` skills are built, tested with TDD per skill, and installed at `~/.claude/skills/`. Three repos live on GitHub:
+
+- Umbrella: https://github.com/sKenny95/sina-second-brain
+- Operational: https://github.com/sKenny95/sina-operational-wiki
+- Voicenotes: https://github.com/sKenny95/sina-voicenotes-wiki (untouched)
+
+Implementation followed: [docs/superpowers/specs/2026-04-26-second-brain-design.md](docs/superpowers/specs/2026-04-26-second-brain-design.md) → [docs/superpowers/plans/2026-04-26-second-brain-build.md](docs/superpowers/plans/2026-04-26-second-brain-build.md). For ongoing usage see [README.md](README.md).
