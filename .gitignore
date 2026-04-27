@@ -1,0 +1,13 @@
+# Sub-wikis are independent repos cloned side by side
+sina-voicenotes-wiki/
+sina-operational-wiki/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Local-only Claude state (settings.local.json, etc.)
+.claude/settings.local.json
