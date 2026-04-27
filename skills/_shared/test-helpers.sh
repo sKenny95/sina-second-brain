@@ -26,7 +26,7 @@ declare -a _MKTRAP_PATHS=()
 _mktrap_cleanup() {
   local p
   for p in "${_MKTRAP_PATHS[@]}"; do
-    [[ -e "$p" ]] && rm -rf "$p"
+    [[ -e "$p" ]] && rm -rf "$p" || true
   done
 }
 mktrap() {
