@@ -1,0 +1,15 @@
+{
+  "date": "FIXTURE_TODAY",
+  "project_updates": [
+    {
+      "slug": "auth-rewrite",
+      "create_if_missing": true,
+      "title": "Auth rewrite",
+      "append_done": ["wired auth middleware"],
+      "append_open_loops": ["need to add tests"],
+      "status": "active"
+    }
+  ],
+  "area_updates": [],
+  "daily_done": ["wired auth middleware"]
+}
